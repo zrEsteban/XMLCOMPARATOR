@@ -47,8 +47,11 @@ el resultado por terminal debería ser:
 
 
 `59c59`
+
 `<             "@name": "ensight",`
+
 `---`
+
 `>             "@name": "med",`
 
 lo mismo que si se ejecuta `make compareJSON`
