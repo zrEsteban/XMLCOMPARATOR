@@ -11,22 +11,21 @@
 
 #### *Para instalar ambos modules que se utilizan hacer:
 
-shell> sudo perl -MCPAN -e shell
-
-cpan> install XML::XML2JSON
-cpan> install XML::LibXML
+`shell> sudo perl -MCPAN -e shell`
+`cpan> install XML::XML2JSON`
+`cpan> install XML::LibXML`
 
 puede que pida, JSON::DWIW, instalar haciendo:
 
-cpan> install JSON::DWIW
+`cpan> install JSON::DWIW`
 
 #### *Para hacer el parsing de ficheros XML a un hash de Perl se puede utilizar XML::Simple
 
-cpan> install XML::Simple
+`cpan> install XML::Simple`
 
 Otros modulos que pueden interesar:
 
-cpan> install XML::Dumper
+`cpan> install XML::Dumper`
 
 
 ## **MODO DE USO**
@@ -34,6 +33,8 @@ cpan> install XML::Dumper
 `./compare_json.sh <xml file 1> <xml file 2>`
 
 El ejecutable principal es *compare_json.sh*, que utiliza *convert_xml.pl*, ambos se pueden utlizar por separados mediante Makefile.
+
+**obs:** el nombre del fichero debe ir sin la extensión xml.
 
 #### * Se puede utilizar XMLCOMPARATOR mediante la herramienta make o directamente usando los script ejecutables.
 
@@ -44,12 +45,11 @@ al ejectuar en terminal:
 
 el resultado por terminal debería ser:
 
-`
-59c59
-<             "@name": "ensight",
----
->             "@name": "med",
-`
+
+`59c59`
+`<             "@name": "ensight",`
+`---`
+`>             "@name": "med",`
 
 lo mismo que si se ejecuta `make compareJSON`
 
