@@ -2,6 +2,7 @@
 
 - perl 5, version 26, subversion 1 (v5.26.1) 
 - modulo XML::XML2JSON, XML::LibXML.
+- jq v1.6, install from (https://stedolan.github.io/jq/ ) or by (`sudo apt-get install jq`)
 
 ## **NOTAS:**
 
@@ -12,7 +13,9 @@
 #### *Para instalar ambos modules que se utilizan hacer:
 
 `shell> sudo perl -MCPAN -e shell`
+
 `cpan> install XML::XML2JSON`
+
 `cpan> install XML::LibXML`
 
 puede que pida, JSON::DWIW, instalar haciendo:
