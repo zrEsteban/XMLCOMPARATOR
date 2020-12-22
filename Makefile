@@ -7,6 +7,9 @@ read:
 compare:
 	./compare_xml.sh setup.xml setup.xml
 
+showAsJSON:
+	./convert_xml.pl setup.xml
+
 compareJSON:
 	./compare_json.sh setup setup_test
 
