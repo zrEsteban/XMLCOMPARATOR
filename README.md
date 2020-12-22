@@ -55,3 +55,10 @@ el resultado por terminal debería ser:
 
 lo mismo que si se ejecuta `make compareJSON` .
 
+#### * Además, se puede convertir xml a ficheros con formato json.
+
+Para esto hay que utilizar el script de perl en terminal y agregar el nombre del fichero como salida del script, es decir:
+
+`./convert_xml.pl >  <json file>`
+
+**obs:** el nombre del fichero de salida debe ir con la extensión json.
