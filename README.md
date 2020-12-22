@@ -59,6 +59,4 @@ lo mismo que si se ejecuta `make compareJSON` .
 
 Para esto hay que utilizar el script de perl en terminal y agregar el nombre del fichero como salida del script, es decir:
 
-`./convert_xml.pl >  <json file>`
-
-**obs:** el nombre del fichero de salida debe ir con la extensión json.
+`./convert_xml.pl >  output.json`
