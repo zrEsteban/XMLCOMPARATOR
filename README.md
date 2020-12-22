@@ -40,8 +40,7 @@ El ejecutable principal es *compare_json.sh*, que utiliza *convert_xml.pl*, ambo
 
 Por ejemplo, se añaden dos ficheros en formato xml de prueba, (setup y setup_test), la unica diferencia está en la linea 21, en el formato de la malla, ensight y med, respectivamente. Entonces:
 
-al ejectuar en terminal:
-./compare_json.sh setup setup_test
+al ejectuar en terminal: `./compare_json.sh setup setup_test`
 
 el resultado por terminal debería ser:
 
@@ -54,5 +53,5 @@ el resultado por terminal debería ser:
 
 `>             "@name": "med",`
 
-lo mismo que si se ejecuta `make compareJSON`
+lo mismo que si se ejecuta `make compareJSON` .
 
