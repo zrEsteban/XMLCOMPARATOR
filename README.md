@@ -65,3 +65,11 @@ Para esto hay que utilizar el script de perl en terminal y agregar el nombre del
 `./convert_xml.pl fichero.xml >  output.json`
 
 **obs:** el nombre del fichero xml y json deben ir con la extensión correspondiente.
+
+
+## **SCREENSHOTS:**
+
+![output test](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/diffmode_emacs.png)
+
+![emacs viewer (diff-mode)](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/test_output.png)
+
