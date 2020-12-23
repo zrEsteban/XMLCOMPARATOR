@@ -69,7 +69,9 @@ Para esto hay que utilizar el script de perl en terminal y agregar el nombre del
 
 ## **SCREENSHOTS:**
 
-![output test](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/diffmode_emacs.png)
+#### Output test
+![output test](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/test_output.png)
 
-![emacs viewer (diff-mode)](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/test_output.png)
+#### Emacs view (diff-mode)
+![emacs viewer (diff-mode)](https://github.com/zrEsteban/XMLCOMPARATOR/blob/main/screenshots/diffmode_emacs.png)
 
